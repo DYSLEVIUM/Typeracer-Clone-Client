@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'game/:gameID',
     component: GameComponent,
   },
+  {
+    path: '*',
+    redirectTo: '/',
+  },
 ];
 
 @NgModule({
