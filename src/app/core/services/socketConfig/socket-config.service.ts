@@ -2,12 +2,14 @@ import { Injectable } from '@angular/core';
 import { Observable, Observer, EMPTY } from 'rxjs';
 import * as io from 'socket.io-client';
 
+import { environment } from '../../../../environments/environment';
+
 @Injectable({
   providedIn: 'root',
 })
 export class SocketConfigService {
   constructor() {}
-  socket: SocketIOClient.Socket = io('https://typeracer-clone.herokuapp.com');
+  socket: SocketIOClient.Socket = io(environment.serverUrl);
 
   gameStateObs: Observer<{
     id: string;
