@@ -1,0 +1,27 @@
+.main-container {
+  position: relative;
+  left: 0;
+  display: flex;
+
+  min-height: 78.5vh;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .links {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    h1 {
+      margin: 0 0 5rem 0;
+      color: rgba(255, 255, 255, 1);
+      font-size: 3rem;
+      text-align: center;
+    }
+  }
+}

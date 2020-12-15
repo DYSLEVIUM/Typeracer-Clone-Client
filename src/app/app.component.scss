@@ -1,0 +1,16 @@
+.main-container {
+  position: relative;
+
+  min-height: 100vh;
+  app-header {
+    position: static;
+    width: 100%;
+    top: 0;
+  }
+
+  app-footer {
+    position: static;
+    width: 100%;
+    bottom: 0;
+  }
+}
