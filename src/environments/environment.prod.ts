@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  serverUrl: process.env.serverURl,
+  serverUrl: 'https://typeracer-clone.herokuapp.com',
 };
