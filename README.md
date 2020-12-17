@@ -1,10 +1,10 @@
-# Typeracer Clone
+# Typeracer Clone [![Netlify Status](https://api.netlify.com/api/v1/badges/5d0611fb-5bff-4839-b488-3f027a7a9a8d/deploy-status)](https://app.netlify.com/sites/affectionate-swanson-1841b5/deploys)
 
 This is the client side of the application which is hosted on netlify.
 
 The original repository is at https://github.com/Pushpakant/Typeracer-Clone.
 
-The application is live at https://affectionate-swanson-1841b5.netlify.app
+The application is live at https://affectionate-swanson-1841b5.netlify.app.
 
 ##  Demo
 
