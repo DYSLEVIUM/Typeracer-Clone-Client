@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  serverUrl: process.env.serverUrl,
+  serverUrl: https://typeracer-6yfr.onrender.com,
 };
 
 /*
